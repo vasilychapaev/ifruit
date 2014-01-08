@@ -18,4 +18,7 @@
 	    <preference name="orienation" value="portrait" />
 	    <preference name="fullscreen" value="true" />
 
+	    <gap:platform name="android" />
+	    
+
 	</widget>
