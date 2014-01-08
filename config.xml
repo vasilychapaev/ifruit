@@ -5,14 +5,8 @@
         versionCode = "10" 
         version     = "1.0.0" >
 
-    <!-- versionCode is optional and Android only -->
+	    <!-- versionCode is optional and Android only -->
 
-    <name>PhoneGap Example</name>
+	    <preference name="orienation" value="portrait" />
 
-    <description>
-        An example for phonegap build docs. 
-    </description>
-
-    <preference name="orienation" value="portrait" />
-
-</widget>
+	</widget>
