@@ -15,7 +15,7 @@
 	        Vasily Chapaev
 	    </author>
 
-	    <preference name="orienation" value="landscape" />
+	    <preference name="orienation" value="portrait" />
 	    <preference name="fullscreen" value="true" />
 
 	</widget>
