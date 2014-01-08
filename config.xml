@@ -3,10 +3,19 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.e95.ifruit"
         versionCode = "10" 
-        version     = "1.0.0" >
+        version     = "1.1" >
 
-	    <!-- versionCode is optional and Android only -->
+	    <name>Фрюкт</name>
 
-	    <preference name="orienation" value="portrait" />
+	    <description>
+	        Узнай чем полезны фрукты, которые ты видишь каждый день в магазине.
+	    </description>
+
+	    <author href="http://e95.by" email="vasilychapaev@gmail.com">
+	        Vasily Chapaev
+	    </author>
+
+	    <preference name="orienation" value="landscape" />
+	    <preference name="fullscreen" value="true" />
 
 	</widget>
