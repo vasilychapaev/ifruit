@@ -15,10 +15,12 @@
 	        Vasily Chapaev
 	    </author>
 
+	    <preference name="phonegap-version" value="3.1.0" />
 	    <preference name="orienation" value="portrait" />
 	    <preference name="fullscreen" value="true" />
 
 	    <gap:platform name="android" />
-	    <preference name="phonegap-version" value="3.1.0" />
+	    <param name="orientation" value="portrait" />  
+
 
 	</widget>
