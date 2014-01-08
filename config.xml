@@ -6,15 +6,13 @@
         version     = "1.2" >
 
 	    <name>Фрюкт</name>
-
-	    <description>
-	        Узнай чем полезны фрукты, которые ты видишь каждый день в магазине.
-	    </description>
-
+	    <description>Узнай чем полезны фрукты, которые ты видишь каждый день в магазине.</description>
 	    <author href="http://e95.by" email="vasilychapaev@gmail.com">Vasily Chapaev</author>
+
 
 	    <preference name="phonegap-version" value="3.1.0" />
 	    <preference name="orienation" value="portrait" />
+
 	    
 	    <gap:platform name="android" />
 	    <gap:platform name="ios" />
