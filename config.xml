@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.e95.ifruit"
+        id          = "by.e95.fruits"
         versionCode = "10" 
-        version     = "1.2" >
+        version     = "20140113" >
 
-	    <name>Фрюкт</name>
-	    <description>Узнай чем полезны фрукты, которые ты видишь каждый день в магазине.</description>
+	    <name>Фрукты</name>
+	    <description>
+	    	Фрукты - богатейший источник витаминов и питательных веществ. Постоянное их употребление укрепляет наш иммунитет и помогает организму лучше сопротивляться вирусным заболеваниям и простуде. 
+	    	А ты знаешь какие фрукты помогают организму притупить чувство голода, какие являются хорошими жиросжигателями и что однозначно не следует есть во время диеты?!
+	    </description>
 	    <author href="http://e95.by" email="vasilychapaev@gmail.com">Vasily Chapaev</author>
 
 
@@ -15,7 +18,6 @@
 
 	    
 	    <gap:platform name="android" />
-	    <gap:platform name="ios" />
 	    
 
 	</widget>

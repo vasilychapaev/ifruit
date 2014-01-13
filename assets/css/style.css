@@ -18,19 +18,32 @@ body {font-family: 'Roboto', sans-serif;}
 h1, h2 {color: #565656; font-weight: bold;}
 
 
-
 /* ELEMENTS */
 
 header {
 	background: #F2F2F2;
 	position: fixed; top: 0; left: 0;
-	width: 100%;
+	width: 100%; height: 50px;
 	border-bottom: 1px solid #CFCFC4;}
 #logo {
-	padding: 5px 10px 5px 10px;
-	font-size: 2em;}
+	/*background: green;*/
+	font-size: 2em;
+	padding: 6px 10px 6px 10px;
+	margin-right: 50px;}
 .logo1 {color: #CFCFC4;}
 .logo2 {color: #C23B22; font-weight: bold;}
+a.about_link, div.about_box {
+	text-decoration: none;
+	}
+div.about_box {
+	/*background: red;*/
+	float:right;
+	width: 50px; height: 50px;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Times New Roman";
+	color: #aaa;
+	line-height: 50px;}
 
 
 
@@ -62,3 +75,24 @@ footer {
 	text-decoration: none;
 	color: #767676;
 }
+
+
+
+
+.bg_fruit {background-image: url('../img/bg2.jpg');}
+.about_content {
+	margin-top: 80px;
+	text-align: center;
+	font-size: 1.3em;}
+.about_content p {margin-bottom: 30px;}
+.about_version {color: gray; font-size: 1em;}
+.about_content a {
+	background: #FFF;
+	border: 1px solid #DDD;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #767676;
+	box-shadow: 10px 10px 5px #888888;}
+p a span {padding: 0px 0 0 36px;}
+.icon_store{background: url('../img/icon_playstore.png') no-repeat 0 -4px;}
+.icon_email{background: url('../img/icon_email.png') no-repeat 0 -4px;}

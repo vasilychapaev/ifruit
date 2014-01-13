@@ -2,35 +2,34 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="viewport" content="width=500, initial-scale=1, user-scalable=no" />
-	<script src="js/jquery.min.js"></script>
-	<title></title>
-	<style type="text/css">
-		div#about_wrapper {padding: 20% 0;}
-  		div#about_content {text-align: center; }
-
-		<!-- dev - color highlight div -->
-  		/*div#about_wrapper {background-color: red; }
-  		div#about_content {background-color: green;}*/
-
-    </style>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link href="assets/css/style.css" rel="stylesheet">
+	<!--<script src="assets/js/jquery.min.js"></script>-->
+	<title>Фрукты / О программе</title>
 </head>
-<body>
+<body class="bg_fruit">
 
-	<div id="about_wrapper">
-		<div id="about_content">
-			author: <a href="mailto:vasilychapaev@gmail.com">vasilychapaev@gmail.com</a>
-		</div>
+<header>
+	<a href="index.html" class="about_link">
+		<div class="about_box"><i><b>&larr;</b></i></div>
+	</a>
+	<div id="logo">
+		<span class="logo1">наши</span> 
+		<span class="logo2">ФРУКТЫ</span>
 	</div>
+</header>
+
+<div class="about_content">
+	<p><img src="assets/img/icon_fruits1.png"></p>
+	<p>приложение <b>"Фрукты"</b><br> <span class="about_version">версия 20140113</span></p>
+	
+	<p><a href="market://details?id=com.e95.ifruit"><span class="icon_store">Оценить приложение</span></a>
+	<br><br><br>
+	<a href="mailto:vasilychapaev@gmail.com?subject=отзыв на Фрукты"><span class="icon_email">Написать автору</span></a></p>
 
 
+</div>
 
-	<script>
-		$('html').click(function() {
-			document.location.href='index.html';
-			// alert('redirect');
-		});
-	</script>
 
 </body>
 </html>
