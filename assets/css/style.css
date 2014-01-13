@@ -1,0 +1,64 @@
+/*
+- reset
+- common (page)
+- elements (common)
+- elements (page1)
+- elements (page2)
+*/
+
+
+/* RESET */
+html, body, div, span, p, header, footer {margin:0;padding:0;border:0;}
+header, article {display: block;}
+
+
+
+/* COMMON */
+body {font-family: 'Roboto', sans-serif;}
+h1, h2 {color: #565656; font-weight: bold;}
+
+
+
+/* ELEMENTS */
+
+header {
+	background: #F2F2F2;
+	position: fixed; top: 0; left: 0;
+	width: 100%;
+	border-bottom: 1px solid #CFCFC4;}
+#logo {
+	padding: 5px 10px 5px 10px;
+	font-size: 2em;}
+.logo1 {color: #CFCFC4;}
+.logo2 {color: #C23B22; font-weight: bold;}
+
+
+
+article {padding: 70px 10px 10px;}
+h2 {
+	font-size: 1.5em;
+	border-bottom: 1px solid #EEE;
+	margin: 0 0 20px;}
+article img {
+	max-width: 100%;
+	margin-bottom: 5px;}
+article p {
+	color: #868686;
+	line-height: 26px;
+	margin-bottom: 10px;
+}
+article section {margin-bottom: 30px;}
+
+
+
+footer {
+	height: 80px;
+	text-align: center;
+}
+.footer_button {
+	background: #FFF;
+	border: 1px solid #DDD;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #767676;
+}
