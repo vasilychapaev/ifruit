@@ -16,7 +16,7 @@
 	    <preference name="phonegap-version" value="3.1.0" />
 	    <preference name="orienation" value="portrait" />
 	    <icon src="assets/img/icon_fruits1.png" />
-	    <gap:splash src="assets/img/splash.jpg" />
+	    <gap:splash src="assets/img/splash_fruits.jpg" />
 
 	    
 	    <gap:platform name="android" />
